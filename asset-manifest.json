@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/swarnimkoirala/PathWise.git/static/css/main.b1276d2a.css",
+    "main.js": "/swarnimkoirala/PathWise.git/static/js/main.32d28eeb.js",
+    "index.html": "/swarnimkoirala/PathWise.git/index.html",
+    "main.b1276d2a.css.map": "/swarnimkoirala/PathWise.git/static/css/main.b1276d2a.css.map",
+    "main.32d28eeb.js.map": "/swarnimkoirala/PathWise.git/static/js/main.32d28eeb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1276d2a.css",
+    "static/js/main.32d28eeb.js"
+  ]
+}
