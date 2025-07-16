@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/swarnimkoirala/PathWise/static/css/main.b1276d2a.css",
-    "main.js": "/swarnimkoirala/PathWise/static/js/main.32d28eeb.js",
+    "main.js": "/swarnimkoirala/PathWise/static/js/main.65a62c22.js",
     "index.html": "/swarnimkoirala/PathWise/index.html",
     "main.b1276d2a.css.map": "/swarnimkoirala/PathWise/static/css/main.b1276d2a.css.map",
-    "main.32d28eeb.js.map": "/swarnimkoirala/PathWise/static/js/main.32d28eeb.js.map"
+    "main.65a62c22.js.map": "/swarnimkoirala/PathWise/static/js/main.65a62c22.js.map"
   },
   "entrypoints": [
     "static/css/main.b1276d2a.css",
-    "static/js/main.32d28eeb.js"
+    "static/js/main.65a62c22.js"
   ]
 }
