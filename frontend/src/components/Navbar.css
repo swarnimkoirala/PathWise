@@ -1,0 +1,48 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #654040; /* deep brown */
+  padding: 0.75rem 1.5rem;
+  box-shadow: 0 4px 10px rgb(255, 255, 255);
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-size: 2.4rem;
+  font-weight: bold;
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-shadow: #aad0ff !important;
+}
+
+.navbar-brand:hover {
+  color: #ffffff; /* light purple */
+  transform: scale(1.05);
+}
+
+.nav-link {
+  color: #f0f0f0 !important;
+  font-weight: 500;
+  margin-left: 1rem;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #61a2f3 !important; /* soft blue */
+  border-bottom: 2px solid #aad0ff;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    background-color: #4b2e2e;
+    padding: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+}

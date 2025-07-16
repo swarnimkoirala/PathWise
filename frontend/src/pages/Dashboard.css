@@ -1,0 +1,282 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  background-image: url('https://t3.ftcdn.net/jpg/06/60/05/14/360_F_660051485_l4MvWpJY8GBiKMGU49xWskQGixEIPMgI.jpg?auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 40px 20px;
+  backdrop-filter: brightness(0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff; /* Light text on dark background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Skill cards inside dashboard */
+.dashboard-container .skill-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1rem;
+  color: #333; /* Dark text on white card */
+}
+
+/* Buttons inside dashboard */
+.dashboard-container button.btn {
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dashboard-container button.btn-primary {
+  background-color: #5a3e85;
+  border-color: #5a3e85;
+  color: #fff;
+}
+
+.dashboard-container button.btn-primary:hover {
+  background-color: #472d68;
+  border-color: #472d68;
+  color: #e0d7f7;
+}
+
+.dashboard-container button.btn-secondary {
+  background-color: #a67fb1;
+  border-color: #a67fb1;
+  color: #fff;
+}
+
+.dashboard-container button.btn-secondary:hover {
+  background-color: #7e5f8b;
+  border-color: #7e5f8b;
+  color: #e0d7f7;
+}
+
+/* Progress bars inside dashboard */
+.dashboard-container .progress {
+  height: 20px;
+  width: 250px;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dashboard-container .progress-bar {
+  background-color: #5a3e85;
+  transition: width 0.5s ease;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* Alerts inside dashboard */
+.dashboard-container .alert-info {
+  background-color: #d7d4f7;
+  color: #3f2a82;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-top: 1rem;
+  white-space: pre-wrap;
+}
+
+.dashboard-container .alert-secondary {
+  background-color: #e6e0f7;
+  color: #5a3e85;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-top: 0.5rem;
+  white-space: pre-wrap;
+}
+
+/* Lists inside dashboard */
+.dashboard-container ul.list-group {
+  width: 100%;
+  max-width: 800px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.dashboard-container ul.list-group li.list-group-item {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+/* Buttons group inside each skill item */
+.dashboard-container .btn-group .btn {
+  margin-left: 5px;
+  font-size: 0.85rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .dashboard-container .progress {
+    width: 100%;
+  }
+  
+  .dashboard-container ul.list-group {
+    max-width: 100%;
+  }
+}
+
+/* Dashboard.css */
+
+/* Title styling */
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #5a3e85; /* deep purple */
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 2px rgba(90, 62, 133, 0.6);
+}
+
+/* Add New Skill button styling */
+.add-skill-btn {
+  background: linear-gradient(45deg, #5a3e85, #7e5f8b);
+  border: none;
+  padding: 0.6rem 1.4rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(90, 62, 133, 0.4);
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-skill-btn:hover,
+.add-skill-btn:focus {
+  background: linear-gradient(45deg, #7e5f8b, #5a3e85);
+  box-shadow: 0 6px 12px rgba(126, 95, 139, 0.7);
+  outline: none;
+}
+
+/* Responsive tweaks for smaller screens */
+@media (max-width: 576px) {
+  .dashboard-title {
+    font-size: 2rem;
+  }
+
+  .add-skill-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1.2rem;
+  }
+}
+
+/* Container for Add Skill / Edit Skill form */
+.skill-form-container {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 30px 25px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #3e3e3e;
+}
+
+/* Form heading */
+.skill-form-container h2 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #5a2a83; /* Purple shade for headings */
+  text-align: center;
+}
+
+/* Text input for skill name */
+.skill-form-container input[type="text"] {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1.8px solid #d0cde1;
+  font-size: 1rem;
+  outline-offset: 2px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.skill-form-container input[type="text"]:focus {
+  border-color: #7841c9; /* Brighter purple on focus */
+  box-shadow: 0 0 8px rgba(120, 65, 201, 0.4);
+}
+
+/* Range sliders container */
+.skill-form-container .form-range {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Labels above sliders */
+.skill-form-container label {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #4a3f55;
+}
+
+/* Buttons container */
+.skill-form-container .btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+/* Primary submit button */
+.skill-form-container .btn-success {
+  background: linear-gradient(135deg, #5a2a83, #7841c9);
+  border: none;
+  font-weight: 600;
+  padding: 10px 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(120, 65, 201, 0.5);
+  transition: background 0.3s ease;
+}
+
+.skill-form-container .btn-success:hover {
+  background: linear-gradient(135deg, #7841c9, #5a2a83);
+}
+
+/* Secondary cancel button */
+.skill-form-container .btn-secondary {
+  background: #f2f1f7;
+  color: #5a2a83;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px 25px;
+  border: none;
+  box-shadow: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.skill-form-container .btn-secondary:hover {
+  background-color: #d7d4e9;
+  color: #3e2461;
+}
+
+/* AI suggestion alert styling */
+.skill-form-container .alert-info {
+  background: #f5f3fb;
+  border-color: #c9bbf0;
+  color: #5a2a83;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 25px;
+  white-space: pre-wrap;
+  box-shadow: 0 4px 12px rgba(90, 42, 131, 0.3);
+}
